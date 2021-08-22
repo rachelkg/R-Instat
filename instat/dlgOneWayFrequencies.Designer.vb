@@ -40,8 +40,8 @@ Partial Class dlgOneWayFrequencies
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dlgOneWayFrequencies))
         Me.grpSort = New System.Windows.Forms.GroupBox()
-        Me.rdoDescendingFrequencies = New System.Windows.Forms.RadioButton()
-        Me.rdoAscendingFrequencies = New System.Windows.Forms.RadioButton()
+        Me.rdoDescending = New System.Windows.Forms.RadioButton()
+        Me.rdoAscending = New System.Windows.Forms.RadioButton()
         Me.rdoNone = New System.Windows.Forms.RadioButton()
         Me.ucrPnlSort = New instat.UcrPanel()
         Me.cmdOptions = New System.Windows.Forms.Button()
@@ -52,6 +52,7 @@ Partial Class dlgOneWayFrequencies
         Me.grpOutput = New System.Windows.Forms.GroupBox()
         Me.rdoAsHtml = New System.Windows.Forms.RadioButton()
         Me.rdoAsText = New System.Windows.Forms.RadioButton()
+
         Me.ucrPnlOutput = New instat.UcrPanel()
         Me.ucrSaveGraph = New instat.ucrSave()
         Me.ucrReceiverOneWayFreq = New instat.ucrReceiverMultiple()
@@ -63,33 +64,33 @@ Partial Class dlgOneWayFrequencies
         Me.ucrChkFlip = New instat.ucrCheck()
         Me.ucrBase = New instat.ucrButtons()
         Me.ucrSelectorOneWayFreq = New instat.ucrSelectorByDataFrameAddRemove()
+
         Me.grpSort.SuspendLayout()
         Me.grpOutput.SuspendLayout()
         Me.SuspendLayout()
         '
         'grpSort
         '
-        Me.grpSort.Controls.Add(Me.rdoDescendingFrequencies)
-        Me.grpSort.Controls.Add(Me.rdoAscendingFrequencies)
+        Me.grpSort.Controls.Add(Me.rdoDescending)
+        Me.grpSort.Controls.Add(Me.rdoAscending)
         Me.grpSort.Controls.Add(Me.rdoNone)
-        Me.grpSort.Controls.Add(Me.ucrPnlSort)
         resources.ApplyResources(Me.grpSort, "grpSort")
         Me.grpSort.Name = "grpSort"
         Me.grpSort.TabStop = False
         '
-        'rdoDescendingFrequencies
+        'rdoDescending
         '
-        resources.ApplyResources(Me.rdoDescendingFrequencies, "rdoDescendingFrequencies")
-        Me.rdoDescendingFrequencies.Name = "rdoDescendingFrequencies"
-        Me.rdoDescendingFrequencies.TabStop = True
-        Me.rdoDescendingFrequencies.UseVisualStyleBackColor = True
+        resources.ApplyResources(Me.rdoDescending, "rdoDescending")
+        Me.rdoDescending.Name = "rdoDescending"
+        Me.rdoDescending.TabStop = True
+        Me.rdoDescending.UseVisualStyleBackColor = True
         '
-        'rdoAscendingFrequencies
+        'rdoAscending
         '
-        resources.ApplyResources(Me.rdoAscendingFrequencies, "rdoAscendingFrequencies")
-        Me.rdoAscendingFrequencies.Name = "rdoAscendingFrequencies"
-        Me.rdoAscendingFrequencies.TabStop = True
-        Me.rdoAscendingFrequencies.UseVisualStyleBackColor = True
+        resources.ApplyResources(Me.rdoAscending, "rdoAscending")
+        Me.rdoAscending.Name = "rdoAscending"
+        Me.rdoAscending.TabStop = True
+        Me.rdoAscending.UseVisualStyleBackColor = True
         '
         'rdoNone
         '
@@ -145,7 +146,6 @@ Partial Class dlgOneWayFrequencies
         '
         Me.grpOutput.Controls.Add(Me.rdoAsHtml)
         Me.grpOutput.Controls.Add(Me.rdoAsText)
-        Me.grpOutput.Controls.Add(Me.ucrPnlOutput)
         resources.ApplyResources(Me.grpOutput, "grpOutput")
         Me.grpOutput.Name = "grpOutput"
         Me.grpOutput.TabStop = False
@@ -162,6 +162,7 @@ Partial Class dlgOneWayFrequencies
         Me.rdoAsText.Name = "rdoAsText"
         Me.rdoAsText.UseVisualStyleBackColor = True
         '
+
         'ucrPnlOutput
         '
         resources.ApplyResources(Me.ucrPnlOutput, "ucrPnlOutput")
@@ -236,27 +237,18 @@ Partial Class dlgOneWayFrequencies
         resources.ApplyResources(Me.ucrSelectorOneWayFreq, "ucrSelectorOneWayFreq")
         Me.ucrSelectorOneWayFreq.Name = "ucrSelectorOneWayFreq"
         '
+
         'dlgOneWayFrequencies
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.grpOutput)
-        Me.Controls.Add(Me.ucrSaveGraph)
-        Me.Controls.Add(Me.ucrReceiverOneWayFreq)
         Me.Controls.Add(Me.rdoBoth)
         Me.Controls.Add(Me.rdoGraph)
-        Me.Controls.Add(Me.ucrNudGroups)
         Me.Controls.Add(Me.rdoTable)
-        Me.Controls.Add(Me.ucrPnlFrequencies)
-        Me.Controls.Add(Me.ucrChkGroupData)
-        Me.Controls.Add(Me.ucrReceiverWeights)
-        Me.Controls.Add(Me.ucrChkWeights)
-        Me.Controls.Add(Me.ucrChkFlip)
         Me.Controls.Add(Me.lblSelectedVariable)
         Me.Controls.Add(Me.cmdOptions)
         Me.Controls.Add(Me.grpSort)
-        Me.Controls.Add(Me.ucrBase)
-        Me.Controls.Add(Me.ucrSelectorOneWayFreq)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
         Me.MinimizeBox = False
@@ -272,8 +264,8 @@ Partial Class dlgOneWayFrequencies
     Friend WithEvents ucrSelectorOneWayFreq As ucrSelectorByDataFrameAddRemove
     Friend WithEvents ucrBase As ucrButtons
     Friend WithEvents grpSort As GroupBox
-    Friend WithEvents rdoDescendingFrequencies As RadioButton
-    Friend WithEvents rdoAscendingFrequencies As RadioButton
+    Friend WithEvents rdoDescending As RadioButton
+    Friend WithEvents rdoAscending As RadioButton
     Friend WithEvents rdoNone As RadioButton
     Friend WithEvents ucrPnlSort As UcrPanel
     Friend WithEvents cmdOptions As Button
