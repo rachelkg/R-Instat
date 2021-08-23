@@ -724,7 +724,7 @@
     <value>8, 8</value>
   </data>
   <data name="ucrPnlPlots.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 165</value>
+    <value>245, 165</value>
   </data>
   <data name="ucrPnlPlots.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -748,7 +748,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tbpPlots.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 179</value>
+    <value>253, 179</value>
   </data>
   <data name="tbpPlots.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -772,7 +772,7 @@
     <value>5, 5</value>
   </data>
   <data name="tbpOneVarUseModFit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 205</value>
+    <value>261, 205</value>
   </data>
   <data name="tbpOneVarUseModFit.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -817,7 +817,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>269, 255</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

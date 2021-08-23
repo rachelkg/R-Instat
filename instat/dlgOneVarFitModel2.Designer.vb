@@ -508,7 +508,7 @@ Partial Class dlgOneVarFitModel
         Me.ucrInputComboEstimate.AddQuotesIfUnrecognised = True
         Me.ucrInputComboEstimate.GetSetSelectedIndex = -1
         Me.ucrInputComboEstimate.IsReadOnly = False
-        Me.ucrInputComboEstimate.Location = New System.Drawing.Point(128, 252)
+        Me.ucrInputComboEstimate.Location = New System.Drawing.Point(80, 252)
         Me.ucrInputComboEstimate.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrInputComboEstimate.Name = "ucrInputComboEstimate"
         Me.ucrInputComboEstimate.Size = New System.Drawing.Size(92, 21)
@@ -519,7 +519,7 @@ Partial Class dlgOneVarFitModel
         Me.ucrInputComboTests.AddQuotesIfUnrecognised = True
         Me.ucrInputComboTests.GetSetSelectedIndex = -1
         Me.ucrInputComboTests.IsReadOnly = False
-        Me.ucrInputComboTests.Location = New System.Drawing.Point(128, 252)
+        Me.ucrInputComboTests.Location = New System.Drawing.Point(80, 252)
         Me.ucrInputComboTests.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrInputComboTests.Name = "ucrInputComboTests"
         Me.ucrInputComboTests.Size = New System.Drawing.Size(92, 21)
@@ -619,10 +619,7 @@ Partial Class dlgOneVarFitModel
         Me.Controls.Add(Me.ucrInputCIMethods)
         Me.Controls.Add(Me.ucrInputMeanCIMethod)
         Me.Controls.Add(Me.ucrInputNullHypothesis)
-        Me.Controls.Add(Me.lblEstimate)
-        Me.Controls.Add(Me.ucrInputComboEstimate)
         Me.Controls.Add(Me.lblTests)
-        Me.Controls.Add(Me.ucrInputComboTests)
         Me.Controls.Add(Me.rdoEstimate)
         Me.Controls.Add(Me.ucrChkOmitMissing)
         Me.Controls.Add(Me.cmdDisplayOptions)
@@ -632,7 +629,6 @@ Partial Class dlgOneVarFitModel
         Me.Controls.Add(Me.rdoGeneralCase)
         Me.Controls.Add(Me.ucrPnlGeneralExactCase)
         Me.Controls.Add(Me.ucrSaveModel)
-        Me.Controls.Add(Me.ucrDistributionChoice)
         Me.Controls.Add(Me.LblVariable)
         Me.Controls.Add(Me.ucrReceiverVariable)
         Me.Controls.Add(Me.ucrSelectorOneVarFitMod)
@@ -653,6 +649,10 @@ Partial Class dlgOneVarFitModel
         Me.Controls.Add(Me.lblNullHyp)
         Me.Controls.Add(Me.lblSuccess)
         Me.Controls.Add(Me.lblQMethod)
+        Me.Controls.Add(Me.lblEstimate)
+        Me.Controls.Add(Me.ucrInputComboTests)
+        Me.Controls.Add(Me.ucrInputComboEstimate)
+        Me.Controls.Add(Me.ucrDistributionChoice)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
         Me.MinimizeBox = False

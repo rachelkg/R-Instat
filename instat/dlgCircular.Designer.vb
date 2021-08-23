@@ -222,7 +222,7 @@ Partial Class dlgCircular
         Me.MinimizeBox = False
         Me.Name = "dlgCircular"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "histogram"
+        Me.Text = "Histogram"
         Me.grpUnits.ResumeLayout(False)
         Me.grpUnits.PerformLayout()
         Me.grpModulo.ResumeLayout(False)

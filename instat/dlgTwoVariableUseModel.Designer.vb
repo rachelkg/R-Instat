@@ -96,9 +96,9 @@ Partial Class dlgTwoVariableUseModel
         Me.ucrModel.AddQuotesIfUnrecognised = True
         Me.ucrModel.IsMultiline = False
         Me.ucrModel.IsReadOnly = False
-        Me.ucrModel.Location = New System.Drawing.Point(118, 198)
+        Me.ucrModel.Location = New System.Drawing.Point(122, 198)
         Me.ucrModel.Name = "ucrModel"
-        Me.ucrModel.Size = New System.Drawing.Size(154, 21)
+        Me.ucrModel.Size = New System.Drawing.Size(150, 21)
         Me.ucrModel.TabIndex = 5
         '
         'ucrReceiverUseModel

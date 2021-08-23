@@ -221,9 +221,9 @@ Partial Class dlgOtherRosePlots
         Me.lblNoOfClusters.AutoSize = True
         Me.lblNoOfClusters.Location = New System.Drawing.Point(11, 254)
         Me.lblNoOfClusters.Name = "lblNoOfClusters"
-        Me.lblNoOfClusters.Size = New System.Drawing.Size(76, 13)
+        Me.lblNoOfClusters.Size = New System.Drawing.Size(79, 13)
         Me.lblNoOfClusters.TabIndex = 94
-        Me.lblNoOfClusters.Text = "No of Clusters:"
+        Me.lblNoOfClusters.Text = "No. of Clusters:"
         '
         'lblPercentile
         '

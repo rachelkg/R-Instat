@@ -246,7 +246,7 @@ Partial Class dlgTwoVariableFitModel
         '
         Me.ucrDistributionChoice.Location = New System.Drawing.Point(10, 242)
         Me.ucrDistributionChoice.Name = "ucrDistributionChoice"
-        Me.ucrDistributionChoice.Size = New System.Drawing.Size(208, 27)
+        Me.ucrDistributionChoice.Size = New System.Drawing.Size(222, 27)
         Me.ucrDistributionChoice.TabIndex = 11
         '
         'ucrInputTest
@@ -254,7 +254,7 @@ Partial Class dlgTwoVariableFitModel
         Me.ucrInputTest.AddQuotesIfUnrecognised = True
         Me.ucrInputTest.GetSetSelectedIndex = -1
         Me.ucrInputTest.IsReadOnly = False
-        Me.ucrInputTest.Location = New System.Drawing.Point(44, 247)
+        Me.ucrInputTest.Location = New System.Drawing.Point(62, 245)
         Me.ucrInputTest.Name = "ucrInputTest"
         Me.ucrInputTest.Size = New System.Drawing.Size(137, 21)
         Me.ucrInputTest.TabIndex = 24
@@ -346,7 +346,7 @@ Partial Class dlgTwoVariableFitModel
         Me.ucrInputConfidenceInterval.AddQuotesIfUnrecognised = True
         Me.ucrInputConfidenceInterval.GetSetSelectedIndex = -1
         Me.ucrInputConfidenceInterval.IsReadOnly = False
-        Me.ucrInputConfidenceInterval.Location = New System.Drawing.Point(336, 233)
+        Me.ucrInputConfidenceInterval.Location = New System.Drawing.Point(347, 233)
         Me.ucrInputConfidenceInterval.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrInputConfidenceInterval.Name = "ucrInputConfidenceInterval"
         Me.ucrInputConfidenceInterval.Size = New System.Drawing.Size(94, 21)
@@ -366,7 +366,7 @@ Partial Class dlgTwoVariableFitModel
         Me.ucrInputNullHypothesis.AddQuotesIfUnrecognised = True
         Me.ucrInputNullHypothesis.IsMultiline = False
         Me.ucrInputNullHypothesis.IsReadOnly = False
-        Me.ucrInputNullHypothesis.Location = New System.Drawing.Point(336, 262)
+        Me.ucrInputNullHypothesis.Location = New System.Drawing.Point(347, 262)
         Me.ucrInputNullHypothesis.Name = "ucrInputNullHypothesis"
         Me.ucrInputNullHypothesis.Size = New System.Drawing.Size(94, 22)
         Me.ucrInputNullHypothesis.TabIndex = 88
@@ -391,7 +391,6 @@ Partial Class dlgTwoVariableFitModel
         Me.Controls.Add(Me.ucrInputConfidenceInterval)
         Me.Controls.Add(Me.lblSecondVariableType)
         Me.Controls.Add(Me.lblFirstVariableType)
-        Me.Controls.Add(Me.ucrDistributionChoice)
         Me.Controls.Add(Me.ucrInputTest)
         Me.Controls.Add(Me.ucrTryModelling)
         Me.Controls.Add(Me.cmdExplanatoryFunction)
@@ -413,6 +412,7 @@ Partial Class dlgTwoVariableFitModel
         Me.Controls.Add(Me.lblFirstVariable)
         Me.Controls.Add(Me.lblSecondVariable)
         Me.Controls.Add(Me.lblTest)
+        Me.Controls.Add(Me.ucrDistributionChoice)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.HelpButton = True
         Me.MaximizeBox = False

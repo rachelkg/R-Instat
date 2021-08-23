@@ -242,7 +242,6 @@ Partial Class dlgBarAndPieChart
         Me.Controls.Add(Me.ucrVariablesAsFactorForBarChart)
         Me.Controls.Add(Me.rdoFrequency)
         Me.Controls.Add(Me.ucrInputBarChartPositions)
-        Me.Controls.Add(Me.cmdColumnChartOptions)
         Me.Controls.Add(Me.lblPosition)
         Me.Controls.Add(Me.ucrSaveBar)
         Me.Controls.Add(Me.ucrChkFlipCoordinates)
@@ -252,9 +251,10 @@ Partial Class dlgBarAndPieChart
         Me.Controls.Add(Me.ucrReceiverByFactor)
         Me.Controls.Add(Me.ucrBarChartSelector)
         Me.Controls.Add(Me.ucrBase)
+        Me.Controls.Add(Me.ucrPnlOptions)
+        Me.Controls.Add(Me.cmdColumnChartOptions)
         Me.Controls.Add(Me.cmdBarChartOptions)
         Me.Controls.Add(Me.cmdPieChartOptions)
-        Me.Controls.Add(Me.ucrPnlOptions)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
         Me.MinimizeBox = False

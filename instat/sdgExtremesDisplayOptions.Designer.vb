@@ -178,10 +178,10 @@ Partial Class sdgExtremesDisplayOptions
         '
         'ucrSavePlots
         '
-        Me.ucrSavePlots.Location = New System.Drawing.Point(12, 161)
+        Me.ucrSavePlots.Location = New System.Drawing.Point(1, 161)
         Me.ucrSavePlots.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ucrSavePlots.Name = "ucrSavePlots"
-        Me.ucrSavePlots.Size = New System.Drawing.Size(261, 24)
+        Me.ucrSavePlots.Size = New System.Drawing.Size(285, 24)
         Me.ucrSavePlots.TabIndex = 1
         '
         'ucrBase

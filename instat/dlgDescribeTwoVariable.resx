@@ -126,7 +126,7 @@
     <value>9, 45</value>
   </data>
   <data name="cmdSummaries.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
+    <value>140, 23</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cmdSummaries.TabIndex" type="System.Int32, mscorlib">
