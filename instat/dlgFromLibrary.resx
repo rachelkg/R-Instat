@@ -143,6 +143,18 @@
   <data name="&gt;&gt;cmdLibraryCollection.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="clmDatasets.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="clmDatasets.Width" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="clmDesc.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="clmDesc.Width" type="System.Int32, mscorlib">
+    <value>266</value>
+  </data>
   <data name="lstCollection.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 79</value>
   </data>
@@ -163,18 +175,6 @@
   </data>
   <data name="&gt;&gt;lstCollection.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <data name="clmDatasets.Text" xml:space="preserve">
-    <value>Data</value>
-  </data>
-  <data name="clmDatasets.Width" type="System.Int32, mscorlib">
-    <value>142</value>
-  </data>
-  <data name="clmDesc.Text" xml:space="preserve">
-    <value>Description</value>
-  </data>
-  <data name="clmDesc.Width" type="System.Int32, mscorlib">
-    <value>266</value>
   </data>
   <data name="lblFromPackage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -203,8 +203,12 @@
   <data name="&gt;&gt;lblFromPackage.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="cmdHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 258</value>
+    <value>333, 258</value>
   </data>
   <data name="cmdHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -227,7 +231,6 @@
   <data name="&gt;&gt;cmdHelp.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="rdoDefaultDatasets.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
   </data>
@@ -322,13 +325,13 @@
     <value>None</value>
   </data>
   <data name="ucrBase.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 287</value>
+    <value>6, 287</value>
   </data>
   <data name="ucrBase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
   <data name="ucrBase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 59</value>
+    <value>410, 59</value>
   </data>
   <data name="ucrBase.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
