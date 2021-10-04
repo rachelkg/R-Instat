@@ -144,7 +144,7 @@ Partial Class dlgVisualizeData
         'lblSampling
         '
         Me.lblSampling.AutoSize = True
-        Me.lblSampling.Location = New System.Drawing.Point(191, 244)
+        Me.lblSampling.Location = New System.Drawing.Point(7, 325)
         Me.lblSampling.Name = "lblSampling"
         Me.lblSampling.Size = New System.Drawing.Size(94, 13)
         Me.lblSampling.TabIndex = 9
@@ -154,7 +154,7 @@ Partial Class dlgVisualizeData
         '
         Me.ucrNudAdjustSize.DecimalPlaces = New Decimal(New Integer() {1, 0, 0, 0})
         Me.ucrNudAdjustSize.Increment = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.ucrNudAdjustSize.Location = New System.Drawing.Point(156, 325)
+        Me.ucrNudAdjustSize.Location = New System.Drawing.Point(356, 266)
         Me.ucrNudAdjustSize.Maximum = New Decimal(New Integer() {100, 0, 0, 0})
         Me.ucrNudAdjustSize.Minimum = New Decimal(New Integer() {0, 0, 0, 0})
         Me.ucrNudAdjustSize.Name = "ucrNudAdjustSize"
@@ -165,16 +165,16 @@ Partial Class dlgVisualizeData
         'ucrChkAdjustSize
         '
         Me.ucrChkAdjustSize.Checked = False
-        Me.ucrChkAdjustSize.Location = New System.Drawing.Point(10, 325)
+        Me.ucrChkAdjustSize.Location = New System.Drawing.Point(168, 266)
         Me.ucrChkAdjustSize.Name = "ucrChkAdjustSize"
-        Me.ucrChkAdjustSize.Size = New System.Drawing.Size(130, 20)
+        Me.ucrChkAdjustSize.Size = New System.Drawing.Size(184, 20)
         Me.ucrChkAdjustSize.TabIndex = 19
         '
         'ucrNudSamplingFunction
         '
         Me.ucrNudSamplingFunction.DecimalPlaces = New Decimal(New Integer() {1, 0, 0, 0})
         Me.ucrNudSamplingFunction.Increment = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.ucrNudSamplingFunction.Location = New System.Drawing.Point(330, 242)
+        Me.ucrNudSamplingFunction.Location = New System.Drawing.Point(110, 325)
         Me.ucrNudSamplingFunction.Maximum = New Decimal(New Integer() {100, 0, 0, 0})
         Me.ucrNudSamplingFunction.Minimum = New Decimal(New Integer() {0, 0, 0, 0})
         Me.ucrNudSamplingFunction.Name = "ucrNudSamplingFunction"
