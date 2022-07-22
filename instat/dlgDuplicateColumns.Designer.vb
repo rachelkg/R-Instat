@@ -46,21 +46,21 @@ Partial Class dlgDuplicateColumns
         Me.rdoConvertToNumeric = New System.Windows.Forms.RadioButton()
         Me.rdoConvertToOrderedFactor = New System.Windows.Forms.RadioButton()
         Me.rdoConvertToFactor = New System.Windows.Forms.RadioButton()
-        Me.ucrPnlConvertTo = New instat.UcrPanel()
         Me.grpFactorToNumericOptions = New System.Windows.Forms.GroupBox()
         Me.rdoConvertDefault = New System.Windows.Forms.RadioButton()
         Me.rdoConvertOrdinals = New System.Windows.Forms.RadioButton()
         Me.rdoConvertLevels = New System.Windows.Forms.RadioButton()
-        Me.ucrPnlConvertFactorToNumericOptions = New instat.UcrPanel()
+        Me.ucrSaveColumn = New instat.ucrSave()
         Me.ucrChkChangeType = New instat.ucrCheck()
         Me.ucrChkConvertCreateLabels = New instat.ucrCheck()
         Me.ucrChkConvertKeepAttributes = New instat.ucrCheck()
         Me.ucrNudConvertDisplayDecimals = New instat.ucrNud()
+        Me.ucrPnlConvertFactorToNumericOptions = New instat.UcrPanel()
+        Me.ucrPnlConvertTo = New instat.UcrPanel()
         Me.ucrChkConvertSpecifyDecimalsToDisplay = New instat.ucrCheck()
         Me.ucrReceiverDuplicateColumns = New instat.ucrReceiverSingle()
         Me.ucrSelectorForDuplicateColumn = New instat.ucrSelectorByDataFrameAddRemove()
         Me.ucrBase = New instat.ucrButtons()
-        Me.ucrSaveColumn = New instat.ucrSave()
         Me.grpConvertTo.SuspendLayout()
         Me.grpFactorToNumericOptions.SuspendLayout()
         Me.SuspendLayout()
@@ -69,7 +69,7 @@ Partial Class dlgDuplicateColumns
         '
         Me.lblColumns.AutoSize = True
         Me.lblColumns.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblColumns.Location = New System.Drawing.Point(228, 11)
+        Me.lblColumns.Location = New System.Drawing.Point(231, 9)
         Me.lblColumns.Name = "lblColumns"
         Me.lblColumns.Size = New System.Drawing.Size(105, 13)
         Me.lblColumns.TabIndex = 1
@@ -84,7 +84,7 @@ Partial Class dlgDuplicateColumns
         Me.grpConvertTo.Controls.Add(Me.rdoConvertToOrderedFactor)
         Me.grpConvertTo.Controls.Add(Me.rdoConvertToFactor)
         Me.grpConvertTo.Controls.Add(Me.ucrPnlConvertTo)
-        Me.grpConvertTo.Location = New System.Drawing.Point(228, 77)
+        Me.grpConvertTo.Location = New System.Drawing.Point(234, 79)
         Me.grpConvertTo.Name = "grpConvertTo"
         Me.grpConvertTo.Size = New System.Drawing.Size(235, 100)
         Me.grpConvertTo.TabIndex = 4
@@ -163,22 +163,13 @@ Partial Class dlgDuplicateColumns
         Me.rdoConvertToFactor.Text = "Factor"
         Me.rdoConvertToFactor.UseVisualStyleBackColor = True
         '
-        'ucrPnlConvertTo
-        '
-        Me.ucrPnlConvertTo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ucrPnlConvertTo.Location = New System.Drawing.Point(7, 17)
-        Me.ucrPnlConvertTo.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
-        Me.ucrPnlConvertTo.Name = "ucrPnlConvertTo"
-        Me.ucrPnlConvertTo.Size = New System.Drawing.Size(220, 80)
-        Me.ucrPnlConvertTo.TabIndex = 5
-        '
         'grpFactorToNumericOptions
         '
         Me.grpFactorToNumericOptions.Controls.Add(Me.rdoConvertDefault)
         Me.grpFactorToNumericOptions.Controls.Add(Me.rdoConvertOrdinals)
         Me.grpFactorToNumericOptions.Controls.Add(Me.rdoConvertLevels)
         Me.grpFactorToNumericOptions.Controls.Add(Me.ucrPnlConvertFactorToNumericOptions)
-        Me.grpFactorToNumericOptions.Location = New System.Drawing.Point(228, 236)
+        Me.grpFactorToNumericOptions.Location = New System.Drawing.Point(241, 233)
         Me.grpFactorToNumericOptions.Name = "grpFactorToNumericOptions"
         Me.grpFactorToNumericOptions.Size = New System.Drawing.Size(196, 102)
         Me.grpFactorToNumericOptions.TabIndex = 16
@@ -221,20 +212,20 @@ Partial Class dlgDuplicateColumns
         Me.rdoConvertLevels.Text = "Always Use Levels"
         Me.rdoConvertLevels.UseVisualStyleBackColor = True
         '
-        'ucrPnlConvertFactorToNumericOptions
+        'ucrSaveColumn
         '
-        Me.ucrPnlConvertFactorToNumericOptions.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ucrPnlConvertFactorToNumericOptions.Location = New System.Drawing.Point(6, 22)
-        Me.ucrPnlConvertFactorToNumericOptions.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
-        Me.ucrPnlConvertFactorToNumericOptions.Name = "ucrPnlConvertFactorToNumericOptions"
-        Me.ucrPnlConvertFactorToNumericOptions.Size = New System.Drawing.Size(190, 74)
-        Me.ucrPnlConvertFactorToNumericOptions.TabIndex = 17
+        Me.ucrSaveColumn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ucrSaveColumn.Location = New System.Drawing.Point(6, 343)
+        Me.ucrSaveColumn.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrSaveColumn.Name = "ucrSaveColumn"
+        Me.ucrSaveColumn.Size = New System.Drawing.Size(327, 22)
+        Me.ucrSaveColumn.TabIndex = 30
         '
         'ucrChkChangeType
         '
         Me.ucrChkChangeType.AutoSize = True
         Me.ucrChkChangeType.Checked = False
-        Me.ucrChkChangeType.Location = New System.Drawing.Point(228, 55)
+        Me.ucrChkChangeType.Location = New System.Drawing.Point(234, 55)
         Me.ucrChkChangeType.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.ucrChkChangeType.Name = "ucrChkChangeType"
         Me.ucrChkChangeType.Size = New System.Drawing.Size(165, 23)
@@ -247,7 +238,7 @@ Partial Class dlgDuplicateColumns
         Me.ucrChkConvertCreateLabels.Location = New System.Drawing.Point(371, 181)
         Me.ucrChkConvertCreateLabels.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.ucrChkConvertCreateLabels.Name = "ucrChkConvertCreateLabels"
-        Me.ucrChkConvertCreateLabels.Size = New System.Drawing.Size(100, 23)
+        Me.ucrChkConvertCreateLabels.Size = New System.Drawing.Size(114, 23)
         Me.ucrChkConvertCreateLabels.TabIndex = 13
         '
         'ucrChkConvertKeepAttributes
@@ -274,6 +265,24 @@ Partial Class dlgDuplicateColumns
         Me.ucrNudConvertDisplayDecimals.TabIndex = 15
         Me.ucrNudConvertDisplayDecimals.Value = New Decimal(New Integer() {0, 0, 0, 0})
         '
+        'ucrPnlConvertFactorToNumericOptions
+        '
+        Me.ucrPnlConvertFactorToNumericOptions.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ucrPnlConvertFactorToNumericOptions.Location = New System.Drawing.Point(6, 22)
+        Me.ucrPnlConvertFactorToNumericOptions.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.ucrPnlConvertFactorToNumericOptions.Name = "ucrPnlConvertFactorToNumericOptions"
+        Me.ucrPnlConvertFactorToNumericOptions.Size = New System.Drawing.Size(181, 74)
+        Me.ucrPnlConvertFactorToNumericOptions.TabIndex = 17
+        '
+        'ucrPnlConvertTo
+        '
+        Me.ucrPnlConvertTo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ucrPnlConvertTo.Location = New System.Drawing.Point(7, 17)
+        Me.ucrPnlConvertTo.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.ucrPnlConvertTo.Name = "ucrPnlConvertTo"
+        Me.ucrPnlConvertTo.Size = New System.Drawing.Size(220, 80)
+        Me.ucrPnlConvertTo.TabIndex = 5
+        '
         'ucrChkConvertSpecifyDecimalsToDisplay
         '
         Me.ucrChkConvertSpecifyDecimalsToDisplay.AutoSize = True
@@ -288,7 +297,7 @@ Partial Class dlgDuplicateColumns
         '
         Me.ucrReceiverDuplicateColumns.AutoSize = True
         Me.ucrReceiverDuplicateColumns.frmParent = Me
-        Me.ucrReceiverDuplicateColumns.Location = New System.Drawing.Point(228, 28)
+        Me.ucrReceiverDuplicateColumns.Location = New System.Drawing.Point(234, 27)
         Me.ucrReceiverDuplicateColumns.Margin = New System.Windows.Forms.Padding(0)
         Me.ucrReceiverDuplicateColumns.Name = "ucrReceiverDuplicateColumns"
         Me.ucrReceiverDuplicateColumns.Selector = Nothing
@@ -316,17 +325,8 @@ Partial Class dlgDuplicateColumns
         Me.ucrBase.Location = New System.Drawing.Point(9, 371)
         Me.ucrBase.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ucrBase.Name = "ucrBase"
-        Me.ucrBase.Size = New System.Drawing.Size(405, 52)
+        Me.ucrBase.Size = New System.Drawing.Size(408, 52)
         Me.ucrBase.TabIndex = 29
-        '
-        'ucrSaveColumn
-        '
-        Me.ucrSaveColumn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ucrSaveColumn.Location = New System.Drawing.Point(6, 343)
-        Me.ucrSaveColumn.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrSaveColumn.Name = "ucrSaveColumn"
-        Me.ucrSaveColumn.Size = New System.Drawing.Size(327, 22)
-        Me.ucrSaveColumn.TabIndex = 30
         '
         'dlgDuplicateColumns
         '
