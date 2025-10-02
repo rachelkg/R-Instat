@@ -14,7 +14,7 @@
     <AssemblyName>instat</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile>
@@ -134,8 +134,8 @@
     <Reference Include="CefSharp.WinForms, Version=104.4.240.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
       <HintPath>..\packages\CefSharp.WinForms.104.4.240\lib\net452\CefSharp.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="DotNetZip, Version=1.15.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
-      <HintPath>..\packages\DotNetZip.1.15.0\lib\net40\DotNetZip.dll</HintPath>
+    <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
     </Reference>
     <Reference Include="DynamicInterop, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DynamicInterop.0.9.1\lib\netstandard2.0\DynamicInterop.dll</HintPath>
@@ -291,6 +291,12 @@
       <DependentUpon>dlgImportClimMob.vb</DependentUpon>
     </Compile>
     <Compile Include="dlgImportClimMob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgImportFromEPicsa.Designer.vb">
+      <DependentUpon>dlgImportFromEPicsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgImportFromEPicsa.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="dlgImportFromPostgres.Designer.vb">
@@ -457,6 +463,12 @@
     <Compile Include="sdgInventoryOptions.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="sdgLinkedStationData.Designer.vb">
+      <DependentUpon>sdgLinkedStationData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sdgLinkedStationData.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="sdgLocation.Designer.vb">
       <DependentUpon>sdgLocation.vb</DependentUpon>
     </Compile>
@@ -485,6 +497,12 @@
       <DependentUpon>sdgPTConstants.vb</DependentUpon>
     </Compile>
     <Compile Include="sdgPTConstants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sdgSelectFromNames.Designer.vb">
+      <DependentUpon>sdgSelectFromNames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sdgSelectFromNames.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="sdgSummaryThemes.Designer.vb">
@@ -3489,6 +3507,9 @@
     <EmbeddedResource Include="dlgImportERA5Data.resx">
       <DependentUpon>dlgImportERA5Data.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dlgImportFromEPicsa.resx">
+      <DependentUpon>dlgImportFromEPicsa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dlgImportFromPostgres.resx">
       <DependentUpon>dlgImportFromPostgres.vb</DependentUpon>
     </EmbeddedResource>
@@ -3625,6 +3646,9 @@
     <EmbeddedResource Include="sdgInventoryOptions.resx">
       <DependentUpon>sdgInventoryOptions.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sdgLinkedStationData.resx">
+      <DependentUpon>sdgLinkedStationData.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sdgLocation.resx">
       <DependentUpon>sdgLocation.vb</DependentUpon>
     </EmbeddedResource>
@@ -3639,6 +3663,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sdgPTConstants.resx">
       <DependentUpon>sdgPTConstants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sdgSelectFromNames.resx">
+      <DependentUpon>sdgSelectFromNames.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sdgSummaryThemes.resx">
       <DependentUpon>sdgSummaryThemes.vb</DependentUpon>
